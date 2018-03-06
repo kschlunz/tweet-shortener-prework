@@ -25,7 +25,7 @@ def word_substituter(tweets)
                sub_word = value
                if final == key
                  final = sub_word
-                 final 
+                  
                end
 
           end
@@ -34,6 +34,6 @@ def word_substituter(tweets)
        end
 
 
-      tweets
+    final 
 
 end
