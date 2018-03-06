@@ -24,7 +24,7 @@ def word_substituter(tweets)
           dictionary.each_key do |key, value|
                sub_word = value
                if final == key
-                final.gsub!(sub_word)
+                final_tweet = final.gsub!(sub_word)
                end
           end
 
@@ -32,6 +32,6 @@ def word_substituter(tweets)
        end
 
 
-       tweets
+       final_tweet
 
 end
