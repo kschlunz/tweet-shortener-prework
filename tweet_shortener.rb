@@ -22,17 +22,17 @@ def word_substituter(tweet)
        array = value.split(" ")
        array.map do |word|
               final = word.downcase
-               
+
           dictionary.each do |key, value|
                if final == key
                  final.gsub!(value)
-                  
-               end 
+
+               end
           end
-      
-         
+
+
        end
-     
+
   end
 
 
