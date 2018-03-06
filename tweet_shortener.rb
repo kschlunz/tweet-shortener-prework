@@ -18,8 +18,8 @@ end
 
 
 def word_substituter(tweets)
-  tweets.each do |key, value|
-       array = value.split(" ")
+
+       array = tweets.split(" ")
        array.map do |word|
               final = word.downcase
 
@@ -33,7 +33,7 @@ def word_substituter(tweets)
 
        end
 
-  end
+
 
 
 end
