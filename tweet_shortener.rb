@@ -1,6 +1,6 @@
 # Write your code here.
 require 'pry'
- 
+
 def dictionary
   words_to_be_substitued= {
 :hello => 'hi',
@@ -18,9 +18,7 @@ end
 
 
 def word_substituter(tweets)
-  tweets.each do |tweet|
-      binding.pry
-  end
-  # hash.each_pair { |key, value| hash[key] = value.to_a }
+
+  hash.each_pair { |key, value| hash[key] = value.to_a }
 
 end
