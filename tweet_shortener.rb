@@ -20,5 +20,5 @@ end
 def word_substituter(tweet_one)
   array = tweet_one.to_a
 
-  
+
 end
