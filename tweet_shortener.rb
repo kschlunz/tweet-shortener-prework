@@ -1,5 +1,5 @@
 # Write your code here.
-def dictionary 
+def dictionary
   words_to_be_substitued= {
 :hello => 'hi',
 :to =>'2',
