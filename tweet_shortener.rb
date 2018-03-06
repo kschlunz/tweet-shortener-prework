@@ -24,11 +24,12 @@ def word_substituter(tweets)
           dictionary.each do |key, value|
 
                sub_word = value
-               if final == key
-
-                  tweets.gsub! final, sub_word
-                    binding.pry
-               end
+               binding.pry
+              #  if final == key
+               # 
+              #     tweets.gsub! final, sub_word
+              #       
+              #  end
 
           end
 
