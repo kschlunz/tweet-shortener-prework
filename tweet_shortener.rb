@@ -26,9 +26,9 @@ def word_substituter(tweets)
                sub_word = value
                binding.pry
               #  if final == key
-               # 
+               #
               #     tweets.gsub! final, sub_word
-              #       
+              #
               #  end
 
           end
