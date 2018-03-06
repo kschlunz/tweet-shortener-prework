@@ -17,7 +17,7 @@ def dictionary
 end
 
 
-def word_substituter(tweet_one)
+def word_substituter(tweet)
   tweet_array = tweet.split(" ")
   tweet_array.map do |word|
     replacements.each do |key, value|
