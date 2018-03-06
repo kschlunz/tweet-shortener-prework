@@ -21,14 +21,17 @@ def word_substituter(tweets)
     array = tweets.split(" ")
        array.map do |word|
             final = word.downcase
-          dictionary.each_key do |value|
-               sub_word = value 
+          dictionary.each_key do |key, value|
+               sub_word = value
+               if final == key
+                final.gsub!(sub_word)
+               end
           end
 
 
        end
 
 
-
+       tweets 
 
 end
