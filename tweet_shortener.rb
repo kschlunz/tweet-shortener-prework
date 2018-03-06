@@ -17,8 +17,8 @@ def dictionary
 end
 
 
-def word_substituter(tweets)
+def word_substituter(tweet_one)
+  array = tweet_one.to_a
 
-  hash.each_pair { |key, value| hash[key] = value.to_a }
-
+  
 end
