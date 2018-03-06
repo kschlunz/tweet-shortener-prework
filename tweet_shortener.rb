@@ -19,6 +19,11 @@ end
 
 def word_substituter(tweet_one)
   array = tweet_one.to_a
+  array.each do |word|
+      if words_to_be_substitued.each_key {|words| puts words} == word 
+          
+      end
+  end
 
 
 end
