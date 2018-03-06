@@ -18,12 +18,13 @@ end
 
 
 def word_substituter(tweet_one)
-  array = tweet_one.to_a
-  array.each do |word|
-      if words_to_be_substitued.each_key {|words| puts words} == word
-
-      end
-  end
+  tweet_array = tweet.split(" ")
+  tweet_array.map do |word|
+    replacements.each do |key, value|
+      word = value if word.downcase == key
+    end
+    word
+  end.join(" ")
 
 
 end
