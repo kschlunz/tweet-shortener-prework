@@ -21,7 +21,7 @@ def word_substituter(tweets)
     array = tweets.split(" ")
        array.map do |word|
             final = word.downcase
-          dictionary.each_key do |key, value|
+          dictionary.each do |key, value|
               binding.pry
                sub_word = value
                if final == key
