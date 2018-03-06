@@ -22,9 +22,10 @@ def word_substituter(tweets)
        array.map do |word|
             final = word.downcase
           dictionary.each do |key, value|
-              binding.pry
+              
                sub_word = value
                if final == key
+                 binding.pry
                   tweets.gsub! final, sub_word
 
                end
