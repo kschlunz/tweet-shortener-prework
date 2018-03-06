@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+ 
 def dictionary
   words_to_be_substitued= {
 :hello => 'hi',
