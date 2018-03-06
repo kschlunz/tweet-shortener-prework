@@ -17,7 +17,7 @@ end
 
 def word_substituter(tweets)
   tweets.each do |tweet|
-      puts tweet 
+      binding.pry
   end
   # hash.each_pair { |key, value| hash[key] = value.to_a }
 
