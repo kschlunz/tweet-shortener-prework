@@ -12,4 +12,10 @@ def dictionary
 :at => "@",
 :and => "&",
 }
-end 
+end
+
+
+def word_substituter(tweets)
+  # hash.each_pair { |key, value| hash[key] = value.to_a }
+  tweets.to_a 
+end
