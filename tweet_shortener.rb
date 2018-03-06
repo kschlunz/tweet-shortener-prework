@@ -1,5 +1,6 @@
 # Write your code here.
-dictionary = {
+def dictionary 
+  words_to_be_substitued= {
 :hello => 'hi',
 :to =>'2',
 :two => "2",
@@ -11,3 +12,4 @@ dictionary = {
 :at => "@",
 :and => "&",
 }
+end 
