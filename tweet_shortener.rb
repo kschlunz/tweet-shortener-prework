@@ -22,7 +22,7 @@ def word_substituter(tweets)
        array.map do |word|
             final = word.downcase
           dictionary.each_key do |value|
-               
+               sub_word = value 
           end
 
 
